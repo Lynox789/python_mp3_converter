@@ -1,4 +1,4 @@
-# YouTube to MP3 Downloader
+	# YouTube to MP3 Downloader
 
 Un script Python simple et efficace pour télécharger l'audio des vidéos YouTube en format MP3 de haute qualité. Le script gère automatiquement le téléchargement, la conversion, et l'ajout des métadonnées (titre, couverture/thumbnail).
 
@@ -19,5 +19,5 @@ Un script Python simple et efficace pour télécharger l'audio des vidéos YouTu
 ### 1. Cloner le projet
 Téléchargez ce dépôt ou clonez-le avec git :
 ```bash
-git clone [https://github.com/ton-pseudo/ton-nom-de-repo.git](https://github.com/ton-pseudo/ton-nom-de-repo.git)
-cd ton-nom-de-repo
+git clone https://github.com/Lynox789/python_mp3_converter
+cd python_mp3_converter
