@@ -5,7 +5,7 @@ Un script Python permettant de télécharger l'audio des vidéos YouTube et de l
 ## Avertissement Légal
 Ce script est fourni à des fins éducatives et d'archivage personnel. 
 Le téléchargement de contenus protégés par des droits d'auteur sans l'autorisation explicite des détenteurs de ces droits est contraire aux conditions d'utilisation de YouTube. 
-**L'utilisateur** est **seul responsable** de l'utilisation faite de ce script.
+**L'utilisateur** est le **seul responsable** de l'utilisation faite de ce script.
 
 
 
