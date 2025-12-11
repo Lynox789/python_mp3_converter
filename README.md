@@ -1,3 +1,63 @@
+<div align="center">
+
+[🇫🇷 Version Française](#version-française) | [🇬🇧 English Version](#english-version)
+
+</div>
+
+<div id="english-version"></div>
+
+# English Version
+
+# YouTube to MP3 Downloader
+
+A Python script for downloading audio from YouTube videos and converting it to MP3 format. The script automates extraction, conversion, metadata tagging, and file management.
+
+## Legal Disclaimer
+This script is provided for educational and personal archiving purposes. 
+Downloading copyrighted content without the explicit permission of the copyright holders is contrary to YouTube's terms of service. 
+**The user** is **solely responsible** for the use of this script.
+
+
+
+### Clone the project
+Download this repository or clone it with git:
+```bash
+git clone https://github.com/Lynox789/python_mp3_converter
+cd python_mp3_converter
+```
+
+## Features
+
+* **Download**: Use of the `yt-dlp` library for reliable audio stream extraction.
+* **Conversion**: Encoding to MP3 CBR (Constant Bitrate) at 192 kbps.
+* **Metadata**: Automatic integration of the video thumbnail as album art (ID3 tag).
+* **Cleaning**: Sanitisation of file names to remove characters not supported by the operating system.
+
+## Technical Specifications
+
+The script uses FFmpeg for post-processing the raw audio stream extracted from YouTube. The conversion parameters are strictly defined to ensure audio quality.
+
+### Audio Processing and Sampling
+
+The script forces specific arguments when calling FFmpeg via `postprocessor_args`.
+
+* **Codec**: MP3 (MPEG-1 Audio Layer III).
+* **Bitrate**: 192 kbps.
+* **Sample Rate**: **48,000 Hz (48 kHz)**.
+
+This parameter is defined in the code by the argument:
+```python
+“postprocessor_args”: [
+    “-ar”, “48000”
+]
+```
+Modify this parameter if necessary for a better sample rate.
+
+
+<div id="version-française"></div>
+
+# Version Française
+
 # YouTube to MP3 Downloader
 
 Un script Python permettant de télécharger l'audio des vidéos YouTube et de le convertir en format MP3. Le script automatise l'extraction, la conversion, le balisage des métadonnées et la gestion des fichiers.
